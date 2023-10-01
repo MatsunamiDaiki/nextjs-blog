@@ -1,5 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import Layout from '@/components/Layout'
@@ -20,7 +18,7 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   return (
-  <Layout>
+  <Layout home>
     <section className={utilStyles.headingMd}>
       <p>
         こんにちは
